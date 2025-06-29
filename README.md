@@ -5,11 +5,28 @@ Dermora is a modern web application built with React, Vite, and Tailwind CSS. It
 ## Features
 
 - 📸 Camera Capture: Take and process images directly in the browser.
-- 🤖 Chatbot: Interactive chatbot for user engagement.
+- 🤖 Chatbot: Interactive chatbot for user engagement, powered by Gemini for natural language understanding and response generation.
 - 📊 Dashboard: Visualize data and user progress.
 - 🏆 Leaderboard: Track and display top users.
 - 📝 Quiz: Interactive quizzes for user learning and assessment.
 - 🎨 Modern UI: Built with Tailwind CSS and custom UI components.
+
+## Technology Highlights
+
+- **Gemini Integration:** The chatbot leverages Gemini, a state-of-the-art language model, to understand user queries and generate intelligent, conversational responses.
+- **RAG Model:** A Retrieval-Augmented Generation (RAG) model is used to access a state-of-the-art in-house dataset, enabling the system to provide highly relevant and accurate product recommendations by combining internal knowledge with Gemini's AI capabilities.
+- **Supabase Integration:** Supabase is used as a backend service to store and retrieve answers to user questions, enabling dynamic and persistent data handling for the chatbot and other features.
+
+## Additional Project Highlights
+
+- **Personalized Skincare Recommendations:** Combines RAG and Gemini to deliver tailored product and routine suggestions using a curated in-house dataset of skincare knowledge, ingredients, and product types.
+- **Rich UI Component Library:** The `src/components/ui/` directory contains a comprehensive set of reusable UI primitives (buttons, dialogs, navigation menus, breadcrumbs, etc.), all styled with Tailwind CSS and designed for consistency and accessibility.
+- **Custom Hooks and Utilities:** The `src/hooks/` and `src/lib/` folders provide custom React hooks (e.g., for mobile detection, toast notifications) and utility libraries (such as Supabase client setup and general utilities), supporting modular and maintainable code.
+- **Animated and Responsive Design:** Uses animation libraries (such as Framer Motion) for smooth transitions and interactive feedback, and is fully responsive for both desktop and mobile users.
+- **Data-Driven Dashboard:** The Dashboard component visualizes user progress and achievements, encouraging engagement and tracking improvement over time.
+- **Quiz and Leaderboard Features:** Interactive quizzes help users learn about skincare, while the leaderboard fosters a sense of community and friendly competition.
+- **Modern Development Stack:** Built with React, Vite, and TypeScript for fast development and type safety. Uses PostCSS and Tailwind for styling, and ESLint for code quality.
+- **Extensible and Scalable Architecture:** Modular structure with clear separation of components, hooks, data, and pages, making it easy to extend the app with new features or integrate additional data sources and AI models.
 
 ## Getting Started
 
@@ -87,4 +104,3 @@ public/               # Static assets
 ## License
 
 [MIT](LICENSE)
-# Dermora
