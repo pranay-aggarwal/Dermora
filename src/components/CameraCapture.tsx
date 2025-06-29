@@ -1,4 +1,3 @@
-
 import { useState, useRef, useCallback } from "react";
 import { motion } from "framer-motion";
 import Webcam from "react-webcam";
@@ -27,6 +26,18 @@ export const CameraCapture = ({ onBack }: CameraCaptureProps) => {
   const [analysis, setAnalysis] = useState<any>(null);
   const [facingMode, setFacingMode] = useState<"user" | "environment">("user");
 
+  const problemTypes = [
+    "Acne",
+    "Dryness",
+    "Oily Skin",
+    "Sensitivity",
+    "Hyperpigmentation",
+    "Redness",
+    "Blackheads",
+    "Dullness",
+    "Fine Lines"
+  ];
+
   const capture = useCallback(() => {
     const imageSrc = webcamRef.current?.getScreenshot();
     if (imageSrc) {
@@ -35,12 +46,13 @@ export const CameraCapture = ({ onBack }: CameraCaptureProps) => {
       setIsAnalyzing(true);
       setTimeout(() => {
         setAnalysis({
-          problemType: "Acne",
+          problemType: problemTypes[Math.floor(Math.random() * problemTypes.length)],
           concerns: ["Pimples", "Redness"],
-          hydrationLevel: 75,
+          hydrationLevel: Math.floor(Math.random() * 7) * 5 + 65, // random between 65-95, step 5
           recommendations: [
             "Use a gentle exfoliant 2-3 times per week",
             "Apply a hydrating serum daily",
+            "Use a non-comedogenic moisturizer",
             
           ]
         });
