@@ -2,6 +2,10 @@
 
 Dermora is a modern web application built with React, Vite, and Tailwind CSS. It features a suite of interactive components, including a camera capture tool, chatbot, dashboard, leaderboard, and quiz functionality. The project is structured for scalability and maintainability, leveraging modular components and hooks.
 
+## Video Demo
+
+[![Video Thumbnail]](https://github.com/pranay-aggarwal/Dermora/blob/main/demo%20vid)
+
 ## Features
 
 - 📸 Camera Capture: Take and process images directly in the browser.
