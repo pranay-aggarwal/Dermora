@@ -4,7 +4,8 @@ Dermora is a modern web application built with React, Vite, and Tailwind CSS. It
 
 ## Video Demo
 
-[![Video Thumbnail](dermora.png)](https://github.com/pranay-aggarwal/Dermora/tree/main/demo%20vid)
+[![Video Thumbnail](dermora.png)](https://github.com/pranay-aggarwal/Dermora/raw/main/demo%20vid/demo.mp4)
+
 
 
 
