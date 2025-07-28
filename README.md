@@ -15,7 +15,7 @@ Dermora is a modern web application built with React, Vite, and Tailwind CSS. It
 - 🤖 Chatbot: Interactive chatbot for user engagement, powered by Gemini for natural language understanding and response generation.
 - 📊 Dashboard: Visualize data and user progress.
 - 🏆 Leaderboard: Track and display top users.
-- 📝 Quiz: Interactive quizzes for user learning and assessment.
+- 📝 Quiz: Interactive quiz for user analysis.
 - 🎨 Modern UI: Built with Tailwind CSS and custom UI components.
 
 ## Technology Highlights
